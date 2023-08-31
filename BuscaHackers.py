@@ -37,7 +37,7 @@ def show_help():
     help_label = ttk.Label(help_window, text="Instrucciones de Ayuda: Tú pones las reglas en el buscaminas", font=("Helvetica", 16))
     help_label.pack(pady=10)
     
-    instruction_label1 = ttk.Label(help_window, text="1. Ingresa el nuevo valor para cada memoria. Los valores son: 1º Tiempo de juego. 2º Contador de minas. 3º Minas reales.", font=("Helvetica", 12))
+    instruction_label1 = ttk.Label(help_window, text="1. Ingresa el nuevo valor para cada memoria. Los valores son: 1º Tiempo de juego. 2º Contador de minas. 3º Minas reales. 4º Tamaño de ancho. 5º Tamaño de alto.", font=("Helvetica", 12))
     instruction_label1.pack(anchor="w", padx=20)
     
     instruction_label2 = ttk.Label(help_window, text="2. Refresca la ventana moviéndola por debajo de la barra de tareas o observa el tablero.", font=("Helvetica", 12))
@@ -48,12 +48,12 @@ def main():
     
     window = tk.Tk()
     window.title("Control de Memoria")
-    window.geometry("600x250")  # Cambia el tamaño de la ventana
+    window.geometry("600x350")  # Cambia el tamaño de la ventana
     
     style = ttk.Style()
     style.configure("TButton", font=("Helvetica", 12), padding=10)  # Cambia el estilo del botón
     
-    addresses = ["0100579C", "01005194", "010056A4"]  # Direcciones de memoria predefinidas
+    addresses = ["0100579C", "01005194", "010056A4", "010056A8", "010056AC"]  # Direcciones de memoria predefinidas
     
     for address in addresses:
         frame = ttk.Frame(window)
