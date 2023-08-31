@@ -1,0 +1,5 @@
+ctypes
+psutil
+tkinter
+auto-py-to-exe
+pyinstaller
