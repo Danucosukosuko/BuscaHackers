@@ -6,4 +6,4 @@ Modifica la memoria RAM del juego del Buscaminas de Windows XP para hacerlo un p
 ![image](https://github.com/Danucosukosuko/BuscaHackers/assets/71569318/cf940d43-a230-4545-9352-12a0284156c3)
 #### Bajo GNU GPLv3
 # DISCLAIMER
-No me hago responsable del mal uso que se le pueda dar a esta herramienta. Esta herramienta distribuida solo con fines educativos y cualquier mal uso, podría ser ilegal.
+No me hago responsable del mal uso que se le pueda dar a esta herramienta. Esta herramienta es distribuida solo con fines educativos y cualquier mal uso, podría ser ilegal y yo tendría que cerrar este repositorio.
